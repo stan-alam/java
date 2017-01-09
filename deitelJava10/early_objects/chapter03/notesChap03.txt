@@ -1,0 +1,38 @@
+3.2.6 Software Engineering with private Instance Variables and public set and get methods
+
+Through the use of set and get methods, you  can validate attempted modifications to private data and control how that data is presented ot the caller
+
+If the instance variable were public, any client of the class -- i.e any other class that alls the class's method --could see the data and do whatever it wanted with it including setting it to an invalid value.
+
+You might think that even through a client of the class cannot directly access a private instance variable, the client can do whatever it wants with the variable through public set and get methods. You would think that you could peek at the private data any time with the public GET method and that you could modify the PRIVATE data at will through the public SET method. But SET methods can be programmed to VALIDATE their arguments and reject any attempts to set the data to bad values, such as negative body temps, a day in March out of range 1 through 31, a product that is not located in the catalog..etc
+
+And a GET method can present the data in different form. For example, a Grade class might store a grade as an int between 0 and 100, but the getGrade method might return a letter grade as a String, such as "A" for grades between 90 and 100, B for grades 80 and 89..etc
+
+Tightly controlling the access to and presentation of private data can greatly reduce errors, while increasing the robustness and security of your programs.
+
+   Declaring instance variables with access modifier PRIVATE is known as data hiding, information hding. When a program creates(instantiates) an object of class Accoutn, variable name is encapsulated (hidden) in the object and can be accessed only by methods of the object's class.
+
+3.3 Primitive Types vs Reference Types
+
+Java's types are divided into primitive types and reference types.
+
+All none primitive types are reference types, so classes, which specify the types of objects, are reference types.
+
+A primitive-type variable can hold exactly one value of its declared type at a time. For example, an INT variable can store one integer at a time. When another value is assigned to that variable, the new value replaces the previous one -- which is lost.
+
+Local variables are not initialized by default. Primitive-type instance variables are initialized by default. --instance variables of types -- byte, char, short, int, long, float, and double are initialized to 0, and variables of type boolean are initialized to false. You can specify your own initial value for a primitive-type variables by assigning the variable a value in its declaration
+
+e.g. private int numberOfStudents = 10;
+
+Programs use variables of reference types, references to store the addresses of objects in the computer's memory. Such a variable is said to refer to an object in the program. Objects that are referenced may each contain many instance variables.
+
+Scanner input = new Scanner( System.in);
+
+creates an object of class Scanner, then assigns to the variable input a reference to that Scanner object.
+
+Account myAccount = new Account();
+creates an object of class Account, then assigns to the variable myAccount a reference to that Account object.
+
+Reference-type instance variables, if not explicitly initialized, are by default to the value of NULL. A reference to nothing.
+
+
