@@ -1,1 +1,1 @@
-## Horstmann and Cornell Core Java version 9 and 10
+## Horstmann and Cornell 9 and 10th edition Core Java

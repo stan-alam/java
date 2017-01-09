@@ -1,1 +1,1 @@
-## Horton Core Java version 7
+## Horton 7th edition Core Java
