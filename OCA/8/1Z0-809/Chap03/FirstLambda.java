@@ -3,7 +3,7 @@ interface LambdaFunction {
 	void call();
 }
 
-class FirstLambda {
+public class FirstLambda {
 	public static void main(String[] args)
 	{
 		LambdaFunction lambdaFunction = () -> System.out.println("Hello, Multiverse!");
