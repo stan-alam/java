@@ -32,6 +32,7 @@ constructs, looping constructs, or switch statements. They are typically used to
  ```java
 
 public class Student {
+
 	private double marks1, marks2, marks3;  // instance variables
 	private double maxMarsk = 100; //instance variables
 
@@ -43,8 +44,7 @@ public class Student {
 public void setAverage(double val) {
 	avg = val // <------code will not compile because avg is not accessible from getAverage method
 	}
-
-}
+} //end class Student
 
 ```
 
