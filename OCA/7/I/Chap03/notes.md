@@ -34,6 +34,7 @@ constructs, looping constructs, or switch statements. They are typically used to
 public class Student {
 	private double marks1, marks2, marks3;  // instance variables
 	private double maxMarsk = 100; //instance variables
+
 	public double getAverage() {
 	  double avg = 0; // <--- local variable
 	  avg = ((marks1 + marks2 + marks3 ) /( maxMarks * 3 )) * 100;
@@ -46,3 +47,5 @@ public void setAverage(double val) {
 }
 
 ```
+
+In this case the *variable* **avg** can not be accessed outside the **getAverage** method because it is defined locally in the **getAverage** method
