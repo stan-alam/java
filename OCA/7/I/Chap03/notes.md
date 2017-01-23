@@ -49,3 +49,7 @@ public void setAverage(double val) {
 ```
 
 In this case the *variable* **avg** can not be accessed outside the **getAverage** method because it is defined locally in the **getAverage** method
+
+    The lifespan of a variable is determined by its scope. If the scope of the variable is limited to a method,
+    its lifespan is is also limited to that method
+
