@@ -40,7 +40,7 @@ public class Student {
 	  return avg;
 }
 public void setAverage(double val) {
-	avg = val // <--------------------------code will not compile because avg is not accessible from getAverage method
+	avg = val // <------code will not compile because avg is not accessible from getAverage method
 	}
 
 }
