@@ -34,3 +34,16 @@ class CustomConstructorApp {
 }
 
 ```
+
+## Rules for Defining a Constructor
+
+* A constructor must have the same name as the class name
+
+* A constructor does not return anything, not even a **void** type
+
+* A constructor may take zero or more arguments
+
+* By default, the compiler provides a no-argument constructor
+
+* If you provide any constructor -- either a no-argument constructor or a constructor with arguments --the compiler does not provide a default constructor
+
