@@ -15,3 +15,11 @@
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%203.png" width="80%" height="80%">
 </a
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%204.png" width="80%" height="80%">
+</a
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%205.png" width="80%" height="80%">
+</a
