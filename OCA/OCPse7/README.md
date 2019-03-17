@@ -69,3 +69,30 @@ improve the functionality of your Class
 - [ ] Design a class using the **the Singleton design pattern**
 
 - [ ] Design and create objects using the **Factory Pattern**
+
+## 4
+- [ ] **Generics and Collections**
+
+- [ ] Create Generic classes
+
+- [ ] Use the diamond for type inference
+
+- [ ] Analyze the interoperability of collections that use raw types and
+generic types
+
+- [ ] Use wrapper classes, auto-boxing, and unboxing
+
+- [ ] Create and use **List**, **Set** and **Deque** implementations
+
+- [ ] Create and use **Map** implementations
+
+- [ ] Use **java.util.Comparator** and **java.lang.Comparable**
+
+- [ ] Sort and search arrays and lists
+
+I like <span style="font-family:Papyrus; font-size:4em;">Java!</span>
+
+## 5
+- [ ] **String processing**
+
+- [ ] Search, parse and build strings (including **)
