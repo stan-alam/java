@@ -10,6 +10,14 @@
 
 - [ ] Overload constructors and Methods
 
+- [ ] Use the -instanceof- operator and casting
+
+- [ ] Use virtual method invocation
+
+- [ ] Override the hashcode, equals, and toString methods from the Object class to
+improve the functionality of your Class
+
+- [ ] Use package and import statements
 
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%200.png" width="80%" height="80%">
