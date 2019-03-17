@@ -1,5 +1,16 @@
 ## Java OCA se7 II
 
+## 1
+
+- [ ] **Java Class Design**             
+
+- [ ]  Use access modifiers: private, protected, and public
+
+- [ ] Override Methods
+
+- [ ] Overload constructors and Methods
+
+
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%200.png" width="80%" height="80%">
 </a
