@@ -1,7 +1,6 @@
 ## Java OCA se7 II
 
-## 1
-- [ ] **Java Class Design**             
+## 1 **Java Class Design**             
 
 - [ ]  Use access modifiers: private, protected, and public
 
@@ -42,8 +41,7 @@ improve the functionality of your Class
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%205.png" width="80%" height="80%">
 </a>
 
-## 2
-- [ ] **Advanced Class Design**
+## 2 **Advanced Class Design**
 
 - [ ] Identify when and how to apply abstract classes
 
@@ -55,8 +53,7 @@ improve the functionality of your Class
 
 - [ ] Use enumerated types
 
-## 3
-- [ ] **Object-oriented  Design Principles**
+## 3 **Object-oriented  Design Principles**
 
 - [ ] Write code that declares, implements, and/or extends interfaces
 
@@ -70,8 +67,7 @@ improve the functionality of your Class
 
 - [ ] Design and create objects using the **Factory Pattern**
 
-## 4
-- [ ] **Generics and Collections**
+## 4 **Generics and Collections**
 
 - [ ] Create Generic classes
 
@@ -90,9 +86,18 @@ generic types
 
 - [ ] Sort and search arrays and lists
 
-I like <span style="font-family:Papyrus; font-size:4em;">Java!</span>
+## 5 **String processing**
 
-## 5
-- [ ] **String processing**
+- [ ] Search, parse and build strings (including **Scanner, String-Tokenizer, StringBuilder,
+  String**, and **String Formatter**)
 
-- [ ] Search, parse and build strings (including **)
+- [ ] Search, parse, and replace strings by using regular expressions, using expression patterns for
+matching limited to:. .(dot), *(star),* + (plus), ?, \d, \D, \s, \S, \w, \W, \b, \B, [], ()
+
+- [ ] Format strings using the formatting parameters: %b, %c, %d, %f, and %s in format strings
+
+## 6 **Exceptions and Assertions**
+
+- [ ] Use **throw** and **throws** statements
+
+- [ ]  
