@@ -62,27 +62,27 @@ improve the functionality of your Class
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%210.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2010.png" width="80%" height="80%">
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%211.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2011.png" width="80%" height="80%">
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%212A.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2012A.png" width="80%" height="80%">
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%212B.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2012B.png" width="80%" height="80%">
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%213.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2013.png" width="80%" height="80%">
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%214.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2014.png" width="80%" height="80%">
 </a>
 
 
