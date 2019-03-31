@@ -165,6 +165,17 @@ improve the functionality of your Class
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2026.png" width="80%" height="80%">
 </a>
 
+```java
+// 35.A
+class GradeResultsAvg {
+  public double calcAvg(int grade1, int grade2) {  //access is public
+    return (grade1 + grade2) / 2;
+  }
+  protected double calcAvg(int grade1, int grade2) { // acces is protected
+    return (grade1, grade2) / 2;
+  }
+}
+```
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2027.png" width="80%" height="80%">
 </a>
