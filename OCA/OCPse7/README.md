@@ -166,7 +166,21 @@ improve the functionality of your Class
 </a>
 
 ```java
-// 35.A
+// src/33B.java
+double  calcAvg( double grade1, int grade2 )
+{
+  return (grade1 + grade2 ) / 2;
+}
+double calcAvg ( int grade1, double grade2 ) {
+  return ( grade1 + grade2 ) / 2;
+}
+```
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2027A.png" width="80%" height="80%">
+</a>
+
+```java
+// src/GradeResultsAvg.java
 class GradeResultsAvg {
   public double calcAvg(int grade1, int grade2) {  //access is public
     return (grade1 + grade2) / 2;
@@ -176,9 +190,6 @@ class GradeResultsAvg {
   }
 }
 ```
-<a>
-  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2027.png" width="80%" height="80%">
-</a>
 
 ## 2 **Advanced Class Design**
 
