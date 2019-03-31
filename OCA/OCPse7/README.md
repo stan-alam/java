@@ -162,7 +162,7 @@ improve the functionality of your Class
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2026.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2026A.png" width="80%" height="80%">
 </a>
 
 ```java
