@@ -283,10 +283,62 @@ class GradeResultsAvg {
 </a>
 
 ```Java
-//code-stub 41.A 
+//code-stub 41.A
 ```
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2048B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2049A.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2049B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2050.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2051.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2052.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2053A.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2053B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2054A.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2054B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2055.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2056.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2057.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2058.png" width="80%" height="80%">
 </a>
 
 ## 2 **Advanced Class Design**
