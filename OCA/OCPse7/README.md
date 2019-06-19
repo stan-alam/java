@@ -345,6 +345,46 @@ class GradeResultsAvg {
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2059.png" width="80%" height="80%">
 </a>
 
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2060.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2061.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2062.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2063.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2064.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2065.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2066A.png" width="80%" height="80%">
+</a>
+
+```Java
+// graph 49.A  
+```
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2066B.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2067.png" width="80%" height="80%">
+</a>
+
 ## 2 **Advanced Class Design**
 
 - [ ] Identify when and how to apply abstract classes
