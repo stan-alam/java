@@ -374,7 +374,7 @@ class GradeResultsAvg {
 </a>
 
 <p align="center">
-  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/svg/49A.svg" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/svg/49A.svg" width="90%" height="90%">
 </p
 
 <a>
