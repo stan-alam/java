@@ -373,9 +373,9 @@ class GradeResultsAvg {
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2066A.png" width="80%" height="80%">
 </a>
 
-```Java
-// graph 49.A  
-```
+<p align="center">
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/svg/49A.svg" width="50%" height="50%">
+</p
 
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2066B.png" width="80%" height="80%">
