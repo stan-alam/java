@@ -1,4 +1,9 @@
 import java.util.*; // for Java 8
+import java.time.LocalDate;
+import java.time.Month;
+import java.time.ZoneId;
+import java.time.DayOfWeek;
+
 // 4.1
 public class CalendarTest {
 
@@ -9,7 +14,7 @@ public class CalendarTest {
 		int today = date.getDayOfMonth();
 
 		date = date.minusDays( today - 1 ); // this will set the start of month
-		DayofWeek weekday = date.getDayOfWeek();
+		DayOfWeek weekday = date.getDayOfWeek();
 		int value = weekday.getValue(); // 1 = Monday, ... 7 = Sunday
 
 		System.out.println("Monday Tuesday Wednesday Thursday Friday Saturday Sunday");
