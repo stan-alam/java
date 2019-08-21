@@ -114,9 +114,15 @@ improve the functionality of your Class
 </a>
 
 ```java
-
 //code stub 30-A
-
+class Result {
+    double calcAvg(int grade01, int grade02) {
+        return(grade01 + grade02)/2;
+    }
+    double calcAvg(int grade01, int grade02, int grade03) {
+    return (grade01 + grade02 + grade03)/3;
+    }
+}
 ```
 
 <a>
@@ -137,10 +143,34 @@ improve the functionality of your Class
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2023B.png" width="80%" height="80%">
 </a>
 
+```Java
+//code 31B
+class Employee{}
+class SoftwareEngineerInTest extends Employee {}
+class CEO extends Employee {}
+class Travel {
+    static String bookTicket(SoftwarEngineerInTest val) {
+        return "coach";
+  }
+    static String bookTicket(CEO val) {
+        return "business class";
+  }
+}
+```
+
+
 ```java
-
 //code stub 31-C
-
+class Employee {}
+class CEO extends Employee {}
+class Travel {
+    static String bookTicket(Employee val) {
+        return "coach";
+    }
+    static String bookTicket(CEO val) {
+        return "business class";
+    }
+}
 ```
 
 <a>
@@ -148,9 +178,12 @@ improve the functionality of your Class
 </a>
 
 ```java
-
 //code stub 32-A
-
+class TravelAgent {
+    public static void main(String[] args) {
+        System.err.println(Travel.bookTicket ( new CEO ())); //prints business class
+     }
+}
 ```
 
 <a>
