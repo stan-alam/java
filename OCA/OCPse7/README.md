@@ -296,6 +296,25 @@ class GradeResultsAvg {
 
 ```Java
 //codeblock 38A
+class Pencil {
+    public Pencil() {
+        System.err.println("Pencil:constructor");
+    }
+    public Pencil(String a) {
+        System.err.println("Pencil:constructor2");
+    }
+    {
+        System.err.println("Pencil:init1");
+    }
+    { 
+        System.err.println("Pencil:init2");
+    }
+
+    public static void main(String[] args) {
+        new Pencil();
+        new Pencil("a Value");
+    }
+}
 ```
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2043B.png" width="80%" height="80%">
