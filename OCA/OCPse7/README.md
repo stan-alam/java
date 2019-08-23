@@ -296,6 +296,25 @@ class GradeResultsAvg {
 
 ```Java
 //codeblock 38A
+class Pencil {
+    public Pencil() {
+        System.err.println("Pencil:constructor");
+    }
+    public Pencil(String a) {
+        System.err.println("Pencil:constructor2");
+    }
+    {
+        System.err.println("Pencil:init1");
+    }
+    { 
+        System.err.println("Pencil:init2");
+    }
+
+    public static void main(String[] args) {
+        new Pencil();
+        new Pencil("a Value");
+    }
+}
 ```
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2043B.png" width="80%" height="80%">
@@ -323,6 +342,14 @@ class GradeResultsAvg {
 
 ```Java
 //code-stub 41.A
+class Tome {
+    void issueTome(int days) {
+        if (days > 0)
+            System.out.println("Tome is is issued");
+        else
+            System.err.println("Cannot issue tome for zero or negative days.");
+    }
+}
 ```
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2048B.png" width="80%" height="80%">
@@ -332,6 +359,25 @@ class GradeResultsAvg {
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2049A.png" width="80%" height="80%">
 </a>
 
+```java
+//code-block 42.A
+class SpellBook extends Tome {
+    boolean onlyForReference;
+    SpellBook(boolean value) {
+        onlyForReference = value;
+    }
+    @Override
+    void issueTome(int days) {
+    if (onlyForReference)
+        System.out.println("Reference Tome");
+    else
+        if (days < 666)
+            super.issueTome(days);
+        else
+            System.err.println("days => 666);
+    }
+}
+```
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2049B.png" width="80%" height="80%">
 </a>
