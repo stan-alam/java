@@ -503,18 +503,18 @@ class SpellBook extends Tome {
 ```
 
 <a>
-  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2074Bpng" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2074B.png" width="80%" height="80%">
 </a>
 
 ```java
 //codeblock 53B    
 ```
 <a>
-  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2074Cpng" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2074C.png" width="80%" height="80%">
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2075Apng" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2075A.png" width="80%" height="80%">
 </a>
 
 ```Java
@@ -522,7 +522,7 @@ class SpellBook extends Tome {
 ```
 
 <a>
-  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2075Bpng" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2075B.png" width="80%" height="80%">
 </a>
 
 <a>
