@@ -11,6 +11,6 @@ class SpellBook extends Tome {
         if (days < 666)
             super.issueTome(days);
         else
-            System.err.println("days => 666);
+            System.err.println("days => 666");
     }
 }
