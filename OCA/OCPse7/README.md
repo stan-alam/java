@@ -500,6 +500,31 @@ class SpellBook extends Tome {
 
 ```Java
 //codeblock 52.A - 53
+class Tome {
+    String title;
+    String isbn;
+    String[] author;
+    java.util.Date.publishDate;
+    double price;
+    int version;
+    String publisher;
+    boolean eBookVersion;
+    @Override
+    public String toString() {
+        return title + ", ISBN:"+isbn + ", Lead Author:"+author[0];
+    }
+}
+
+class Testing {
+    public static void main(String[] args) {
+        Tome tome = new Tome();
+        tome.title = "Necronomicon Ex-mortis";
+        tome.author = new String[] {"Bruce", "Campbell"};
+        tome.isbn = "666";
+        System.err.println(tome); // Prints Necronomicon Ex-mortis, ISNB:666, Lead Author: "Bruce"
+   }
+} 
+
 ```
 
 <a>
@@ -507,7 +532,26 @@ class SpellBook extends Tome {
 </a>
 
 ```java
-//codeblock 53B    
+//codeblock 53B
+class Tome {
+    String title;
+    static int tomeCopies = 666;
+    @Override
+    public String toString() {
+        return title + ", Copies: " + tomeCopies; //Overrides toString() uses static variable of Tome
+    }
+}
+
+class SpellBook extends Tome {
+    static int tomeCopies = 42; // static variable tomeCopies also defined in SpellBook
+}
+
+class TomeOverrideToString {
+    public static void main(String[] args) {
+    SpellBook spellbook = new SpellBook();
+    spellbook.title = "Necronomicon Ex-mortis";
+    System.err.println(spellbook); // Prints "Necronomicon Ex-mortis:666"    
+
 ```
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/01/images/ocp-se7%20-%2074C.png" width="80%" height="80%">
@@ -518,7 +562,38 @@ class SpellBook extends Tome {
 </a>
 
 ```Java
-//codeblock 54A  
+//codeblock 54A
+class Tome1 {
+    String title;
+    int copies = 1000;
+    public String toString() {
+        return "Class Tome, Title: " + title;
+    }
+}
+
+class Tome2 {
+    String title;
+    int copies - 1000;
+    public String toString() {
+        return ""+copies * 42;
+    }
+}
+
+class Tome3 {
+    String title;
+    int copies = 1000;
+    public String toString() {
+        return title;
+    }
+}
+
+class Tome4 {
+    String title;
+    int copies = 1000;
+    public String toString() {
+        return getClass().getName() + ":" + title;
+    }
+}  
 ```
 
 <a>
