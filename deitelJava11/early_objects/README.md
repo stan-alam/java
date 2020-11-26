@@ -41,5 +41,5 @@
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/chap07/images/deitelJava11th07%20-%20page%2011.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/chap07/images/deitelJava11th07%20-%20page%2011ed.png" width="80%" height="80%">
 </a>
