@@ -145,3 +145,49 @@
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%2038.png" width="80%" height="80%">
 </a>
+
+```java
+//10.4
+// Emp.java
+
+public abstract class Emp {
+    private final String fName;
+    private final String lName;
+    private final String SSN; //should be ssn; leave it for now
+
+    public Emp(String fName, String lName, String SSN) { //constrcutor
+        this.fName = fName;
+        this.lName = lName;
+        this.SSN = SSN;
+    }
+// return fName or First Name
+public String getFname() {
+    return fName;
+}
+// return lName or Last Name
+public String getLname() {
+    return lName;
+}
+// return SSN
+public String getSSN() {
+    return SSN;
+}
+
+//return the string representation of the emp object
+@Override
+public String toString() {
+    return String.format("%s %s%/nSSN is: %s", getFname(), getLname(), getSSN());
+}
+
+//abstract method must be ovreridden by the concrete subclass
+public abstract double earnings();
+}
+```
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%2039.png" width="80%" height="80%">
+</a>
+
+```java
+//10.5
+```
