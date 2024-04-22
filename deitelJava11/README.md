@@ -234,7 +234,9 @@ public class SalariedEmp extends Emp {
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/school_of_athens.png" width="80%" height="80%">
 </a>
+
 **Aristotle learned from Plato, Plato from Scorates, and finally Socrates was a student of the two great ones."** - HistoryBuffs on youtube, check it
+
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%2042.png" width="80%" height="80%">
 </a>
