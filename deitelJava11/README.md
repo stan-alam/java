@@ -145,3 +145,80 @@
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%2038.png" width="80%" height="80%">
 </a>
+
+```java
+//10.4
+// Emp.java
+
+public abstract class Emp {
+    private final String fName;
+    private final String lName;
+    private final String SSN; //should be ssn; leave it for now
+
+    public Emp(String fName, String lName, String SSN) { //constrcutor
+        this.fName = fName;
+        this.lName = lName;
+        this.SSN = SSN;
+    }
+// return fName or First Name
+public String getFname() {
+    return fName;
+}
+// return lName or Last Name
+public String getLname() {
+    return lName;
+}
+// return SSN
+public String getSSN() {
+    return SSN;
+}
+
+//return the string representation of the emp object
+@Override
+public String toString() {
+    return String.format("%s %s%/nSSN is: %s", getFname(), getLname(), getSSN());
+}
+
+//abstract method must be ovreridden by the concrete subclass
+public abstract double earnings();
+}
+```
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%2039.png" width="80%" height="80%">
+</a>
+
+```java
+//Salaried Emp concrete class extends Emp abstract class
+
+public class SalariedEmp extends Emp {
+    private double weeklySal;
+
+    public SalariedEmp(String fName, String lName, String SSN, double weeklySal) { //constructor, remember you can have multiple constructors with different parameters
+        super(fName, lName, SSN);
+
+        if (weeklySal < 0.0)
+            throw new IllegalArgumentException("Weekly salary must be greater equal to 0.0");
+
+        this.weeklySal = weeklySal;
+    }
+
+    //lets set the salary
+    public void setWeeklySal(double weeklySal){
+        if (weeklySal < 0.0)
+            throw new IllegalArgumentException("Weekly salary must be greater equal to 0.0");
+
+        this.weeklySal = weeklySal;
+    }
+    //return sal
+    public double getWeeklySal(){
+        return weeklySal;
+    }
+
+    //calculate the earnings; override the abstract method earnings in Emp
+    @override
+    public String toString() {
+        return String.format("Salaried Employee: %s\n%s: $%,.2f", super.toString(), "Weekly Salary", getWeeklySal());
+    }
+}
+```
