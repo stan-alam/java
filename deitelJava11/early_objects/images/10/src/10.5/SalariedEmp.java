@@ -25,7 +25,7 @@ public class SalariedEmp extends Emp {
     }
 
     //calculate the earnings; override the abstract method earnings in Emp
-    @override
+    @Override
     public String toString() {
         return String.format("Salaried Employee: %s\n%s: $%,.2f", super.toString(), "Weekly Salary", getWeeklySal());
     }
