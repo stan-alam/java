@@ -231,13 +231,33 @@ public class SalariedEmp extends Emp {
   <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%2041.png" width="80%" height="80%">
 </a>
 
-<a>
-  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/school_of_athens.png" width="80%" height="80%">
-</a>
+<p align="center">
+  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/school_of_athens.png" width="50%" height="50%">
+</p>
 
 **Aristotle learned from Plato, Plato from Scorates, and finally Socrates was a student of the two great ones."** - HistoryBuffs on youtube, check it
 
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%2042.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%2043.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%2044.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%2045.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%2046.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%2047.png" width="80%" height="80%">
 </a>
 
