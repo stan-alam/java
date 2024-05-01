@@ -41,4 +41,18 @@ public class ContractEmp extends Emp {
         this.hours = hours;
     }
 
+    //return hours worked
+    public double getHours() {
+        return hours;
+    }
+
+    //calculate earnings; meaning -> override abstract method earnings in Emp
+    @Override //indicates that this method overrides a superclass method
+    public double earnings(){
+        if (getHours() <= 40) { 
+            return getWage() * getHours();
+        } else {
+            return 40 * getWage() + (getHours() - 40) * getWage() * 1.5;
+        }
+    }
 }
