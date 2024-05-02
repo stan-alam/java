@@ -10,6 +10,11 @@ public class PayRollSysTest {
         CommissionEmp commissionEmp = new CommissionEmp("Obi-Wan", "Kenobi", "135-79-2468", 1000.00, 0.06);
 
         BasePlusCommissionEmp basePlusCommissionEmp = new BasePlusCommissionEmp("Han", "Solo", "246-80-1357", 500.00, 0.04, 300.00);
-        
+       
+        System.out.println("Emplyees processed individually:\n");
+
+        System.out.printf("%n%s%n%s: $%,.2f%n%n", salariedEmp, "earned", salariedEmp.earnings());
+
+        //System.out.println("Salaried Employee:\n" + salariedEmp + "\nearned: $" + salariedEmp.earnings() + "\n");
     }
 }
