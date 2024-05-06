@@ -1,2 +1,15 @@
 *.class
 *.jar
+# ignore all *.class files in every director
+**/*.class
+# ignore all *.jar files in every directory
+**/*.jar
+# ignore all *.class files in the root directory
+/*.class
+# ignore all *.jar files in the root directory
+/*.jar
+# ignore all *.class files in the root directory and all subdirectories
+/**/*.class
+# ignore all *.jar files in the root directory and all subdirectories
+/**/*.jar
+# ignore all *.class files in the root directory and all subdirectories
