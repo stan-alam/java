@@ -16,5 +16,33 @@ public class PayRollSysTest {
         System.out.printf("%n%s%n%s: $%,.2f%n%n", salariedEmp, "earned", salariedEmp.earnings());
 
         //System.out.println("Salaried Employee:\n" + salariedEmp + "\nearned: $" + salariedEmp.earnings() + "\n");
+
+        System.out.printf("%s%n%s: $%,.2f%n%n", contractEmp, "earned", contractEmp.earnings());
+
+        System.out.printf("%s%n%s: $%,.2f%n%n", commissionEmp, "earned", commissionEmp.earnings());
+
+        //creating an array of Employees
+        Employee[] employees = new Employee[4];
+        employees[0] = salariedEmp;
+        employees[1] = contractEmp;
+        employees[2] = commissionEmp;
+        employees[3] = basePlusCommissionEmp;
+
+        System.out.println("Employees processed polymorphically:%n%n");
+
+        for(Employee currentEmployee : employees){
+            System.out.println(currentEmployee);
+            if (currentEmp instanceof BasePlusCommissionEmp){
+                BasePlusCommissionEmp employee = (BasePlusCommissionEmp) currentEmployee;
+                employee.setBaseSalary(1.10 * employee.getBaseSalary());
+                System.out.printf("new base salary with 10%% increase is: $%,.2f%n", employee.getBaseSalary());
+            }
+
+            System.out.printf("earned $%, .2f%n%n", currentEmployee.earnings());
+
+        }
+        for (int j = 0; j < employees.length; j++){
+            System.out.printf("Employee %d is a %s%n", j, employees[j].getClass().getName());
+        }
     }
 }
