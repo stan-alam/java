@@ -22,7 +22,7 @@ public class PayRollSysTest {
         System.out.printf("%s%n%s: $%,.2f%n%n", commissionEmp, "earned", commissionEmp.earnings());
 
         //creating an array of Employees
-        Employee[] employees = new Employee[4];
+        Emp[] employees = new Emp[4];
         employees[0] = salariedEmp;
         employees[1] = contractEmp;
         employees[2] = commissionEmp;
@@ -30,9 +30,9 @@ public class PayRollSysTest {
 
         System.out.println("Employees processed polymorphically:%n%n");
 
-        for(Employee currentEmployee : employees){
+        for(Emp currentEmployee : employees){
             System.out.println(currentEmployee);
-            if (currentEmp instanceof BasePlusCommissionEmp){
+            if (currentEmployee instanceof BasePlusCommissionEmp){
                 BasePlusCommissionEmp employee = (BasePlusCommissionEmp) currentEmployee;
                 employee.setBaseSalary(1.10 * employee.getBaseSalary());
                 System.out.printf("new base salary with 10%% increase is: $%,.2f%n", employee.getBaseSalary());
