@@ -27,7 +27,7 @@ public String getSSN() {
 //return the string representation of the emp object
 @Override
 public String toString() {
-    return String.format("%s %s%/nSSN is: %s", getFname(), getLname(), getSSN());
+    return String.format("%s %s%nSSN is: %s", getFname(), getLname(), getSSN());
 }
 
 //abstract method must be ovreridden by the concrete subclass
