@@ -22,4 +22,17 @@ public abstract class Emp implements Payable {
         return SSN;
     }
 
+    @Override public String toString() { // you're returning the String format of the object
+        return String.format("%s: %s %s \n%s: %s", "Employee", getFname(), getLname(), "Social Security Number", getSSN());
+
+    }
+
+    // Note: you don't have to implement getPaymentAmount() here because this is an abstract class
+    // and we can't create an object of an abstract class
+    public abstract double earnings(); // this method will be implemented in the subclasses, no implementation here
+
+    public double getPaymentAmount() {
+        return earnings; // this is the implementation of the getPaymentAmount() method
+    }
+
 }
