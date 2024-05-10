@@ -10,7 +10,7 @@ public class Invoice implements Payable {
         if (partQnty < 0) {
             throw new IllegalArgumentException("Quantity must be >= 0");
         }
-    }
+    
     if (pricePerItem < 0.0) {
         throw new IllegalArgumentException("Price per item must be >= 0");
     }
