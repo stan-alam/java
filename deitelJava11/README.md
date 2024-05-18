@@ -575,5 +575,5 @@ public class CommissionEmp extends Emp {
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%201010.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%20110.png" width="80%" height="80%">
 </a>
