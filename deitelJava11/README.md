@@ -590,6 +590,101 @@ public class CommissionEmp extends Emp {
   <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%20113.png" width="80%" height="80%">
 </a>
 
+```java
+//10.7
+//commissioned emp extends Emp class
+
+public class CommissionEmp extends Emp {
+    private double grossSales;
+    private double commissionRate;
+
+    //constructor
+    public CommissionEmp(String fName, String lName, String SSN, double grossSales, double commissionRate) {
+        super(fName, lName, SSN);
+
+        //validate the commission rate
+        if ( commissionRate <= 0.0 || commissionRate >= 1.0 ) {
+            throw new IllegalArgumentException("Commission rate must be > 0.0 and < 1.0");
+        }
+        //validate the gross sales
+        if(grossSales < 0.0) {
+            throw new IllegalArgumentException("Gross sales must be >= 0.0");
+        } 
+        this.grossSales = grossSales;
+        this.commissionRate = commissionRate;
+    }
+    
+    //set the gross sales amount
+    public void setGrossSales(double grossSales){
+        if (grossSales < 0.0) { 
+            throw new IllegalArgumentException("Gross sales must be >= 0.0");
+        }
+        this.grossSales = grossSales;
+    }
+    //return gross sales amount
+    public double getGrossSales() {
+        return grossSales;
+    }
+//set the commission rate
+    public void setCommissionRate(double commissionRate) {
+        if (commissionRate <= 0.0 || commissionRate >= 1.0) {
+            throw new IllegalArgumentException("Commission rate must be > 0.0 and < 1.0");
+        }
+        this.commissionRate = commissionRate;
+    }
+    //return the commission rate
+    public double getCommissionRate() {
+        return commissionRate;
+    }
+
+    //calculate earnings; meaning -> override abstract method earnings in Emp
+    @Override //indicates that this method overrides a superclass method
+    public double earnings() {
+        return getCommissionRate() * getGrossSales();
+    }
+
+    //return the String representation of CommissionEmp obj
+    @Override //indicates that this method overrides a superclass method
+    public String toString() {
+        return String.format("%s: %s%n%s: $%,.2f; %s: %.2f", "commission employee", super.toString(), "gross sales", getGrossSales(), "commission rate", getCommissionRate());
+    }
+}
+```
+
+```java
+//Salaried Emp concrete class extends Emp abstract class
+
+public class SalariedEmp extends Emp {
+    private double weeklySal;
+
+    public SalariedEmp(String fName, String lName, String SSN, double weeklySal) { //constructor, remember you can have multiple constructors with different parameters
+        super(fName, lName, SSN);
+
+        if (weeklySal < 0.0)
+            throw new IllegalArgumentException("Weekly salary must be greater equal to 0.0");
+
+        this.weeklySal = weeklySal;
+    }
+
+    //lets set the salary
+    public void setWeeklySal(double weeklySal){
+        if (weeklySal < 0.0)
+            throw new IllegalArgumentException("Weekly salary must be greater equal to 0.0");
+
+        this.weeklySal = weeklySal;
+    }
+    //return sal
+    public double getWeeklySal(){
+        return weeklySal;
+    }
+
+    //calculate the earnings; override the abstract method earnings in Emp
+    @Override
+    public String toString() {
+        return String.format("Salaried Employee: %s\n%s: $%,.2f", super.toString(), "Weekly Salary", getWeeklySal());
+    }
+}
+```
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%20114.png" width="80%" height="80%">
 </a>
