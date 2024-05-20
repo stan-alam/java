@@ -1,3 +1,16 @@
+## 08
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/master/deitelJava11/early_objects/images/08/deitelJava11th08%20-%20page%201.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/master/deitelJava11/early_objects/images/08/deitelJava11th08%20-%20page%202.png" width="80%" height="80%">
+</a>
+
+
+## 10
+
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%201.png" width="80%" height="80%">
 </a>
