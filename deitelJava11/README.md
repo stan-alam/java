@@ -688,3 +688,19 @@ public class SalariedEmp extends Emp {
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%20114.png" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%20115.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%20116.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/screencap.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/deitelJava11/early_objects/images/10/deitelJava11th10%20-%20page%20117.png" width="80%" height="80%">
+</a>
