@@ -658,6 +658,33 @@ class Tome4 {
 
 - [ ] Design and create objects using the **Factory Pattern**
 
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%201.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%202.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%203.png" width="80%" height="80%">
+</a>
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%204.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%205.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%206.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%207.png" width="80%" height="80%">
+</a>
+
 ## 4 **Generics and Collections**
 
 - [ ] Create Generic classes
