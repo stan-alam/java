@@ -780,6 +780,27 @@ class Tome4 {
 <a>
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2031.png" width="80%" height="80%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2032.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2033.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2034.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2035.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2036.png" width="80%" height="80%">
+</a>
+
 ## 4 **Generics and Collections**
 
 - [ ] Create Generic classes
