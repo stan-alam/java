@@ -865,6 +865,37 @@ class Tome4 {
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2052.png" width="80%" height="80%">
 </a>
 
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2053.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2054.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2055.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2056.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2057.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2058.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2059.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2060.png" width="80%" height="80%">
+</a>
 ## 4 **Generics and Collections**
 
 - [ ] Create Generic classes
