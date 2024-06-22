@@ -849,6 +849,21 @@ class Tome4 {
   <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2048.png" width="80%" height="80%">
 </a>
 
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2049.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2050.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2051.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/java/blob/develop/OCA/OCPse7/exam2/03/ocp-se7-03%20-%20page%2052.png" width="80%" height="80%">
+</a>
 
 ## 4 **Generics and Collections**
 
