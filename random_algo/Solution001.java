@@ -14,12 +14,16 @@ public class Solution001 {
 public static void main(String[] args){
     Solution001 solution = new Solution001();
     int[] nums = {1, 1, 1, 2, 2, 3};
-    int newNum = solution.removeDuplicates(nums);
+    for (int numbers : nums) {
+        System.out.println("This is the nums array " + numbers);
+    }
+        int newNum = solution.removeDuplicates(nums);
     System.out.println("This is the count of numbers in the set " + newNum);
 
     for(int i = 0; i < newNum; i++){
         System.out.println("these are the new numbers without duplicat4es " + nums[i]);
     }
+
 
   }
 }
