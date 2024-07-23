@@ -23,7 +23,5 @@ public static void main(String[] args){
     for(int i = 0; i < newNum; i++){
         System.out.println("these are the new numbers without duplicat4es " + nums[i]);
     }
-
-
   }
 }
