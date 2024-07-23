@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Solution001 {
     public int removeDuplicates(int[] nums) {
         if (nums.length <= 2) return nums.length;
@@ -14,16 +16,8 @@ public class Solution001 {
 public static void main(String[] args){
     Solution001 solution = new Solution001();
     int[] nums = {1, 1, 1, 2, 2, 3};
-    for (int numbers : nums) {
-        System.out.println("This is the nums array " + numbers);
-    }
-        int newNum = solution.removeDuplicates(nums);
-    System.out.println("This is the count of numbers in the set " + newNum);
-
-    for(int i = 0; i < newNum; i++){
-        System.out.println("these are the new numbers without duplicat4es " + nums[i]);
-    }
-
-
+    System.out.println(nums.length);
+    int newNum = solution.removeDuplicates(nums);
+    System.out.println(newNum);
   }
 }
