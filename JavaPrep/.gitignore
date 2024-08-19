@@ -1,0 +1,4 @@
+#ignore .class files in subdirectories
+*.class
+#ignore .jar files in subdirectories
+*.jar
