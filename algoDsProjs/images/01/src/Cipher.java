@@ -20,5 +20,25 @@ public static String encrypt(String ascii, int shift) {
 */
 }
 public static String decrypt(String cipherascii, int shift) {
-    
+
+}
+/*
+* * main method to test the encrypt and decrypt methods
+ * @param args command line arguments
+ */
+
+public static void main(String[] args){
+
+    String message = "TRAVELEAST";
+    int rotation = 3;
+
+    System.out.println(message);
+
+    // encrypt the message
+    String cipher = encrypt(message, rotation);
+    System.out.println(cipher);
+
+    // decrypt the message
+    System.out.println(decrypted);
+
 }
