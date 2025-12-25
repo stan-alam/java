@@ -11,7 +11,14 @@ public class Cipher {
      * 
      */
 public static String encrypt(String ascii, int shift) {
-    
-}
 
+}
+/*
+* decrypt --reverse rotation
+* @param cipherascii the input String 
+* @param shift rotation used for the encryption
+*/
+}
+public static String decrypt(String cipherascii, int shift) {
+    
 }
