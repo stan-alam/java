@@ -13,7 +13,9 @@ public static void reverseArray(int[] a, int start, int end){
         a[j] = temp;
     }
 }
-public static void main(String, args[]){
+
+public static void main(String[] args) 
+{
     System.out.println("Rotate Array");
 }
 }
