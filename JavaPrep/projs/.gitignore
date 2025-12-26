@@ -1,0 +1,19 @@
+# ignore binaries
+*.class
+# ignore IDE files
+.vscode/
+.idea/
+# ignore build folders
+bin/
+out/
+# ignore OS files
+.DS_Store
+
+
+# ignore logs
+*.log
+# ignore temporary files
+*.tmp
+# ignore compiled files
+
+
